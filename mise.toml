@@ -1,0 +1,6 @@
+[tools]
+claude = "latest"
+codex = "latest"
+gemini = "latest"
+crush = "latest"
+"npm:@github/copilot" = "latest"
