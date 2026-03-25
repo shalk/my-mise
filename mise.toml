@@ -5,6 +5,7 @@ codex = "latest"
 gemini = "latest"
 crush = "latest"
 "npm:@github/copilot" = "latest"
+"npm:@angular/cli" = "latest"
 
 # 开发语言
 go = "latest"
