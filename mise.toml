@@ -7,8 +7,9 @@ crush = "latest"
 "npm:@github/copilot" = "latest"
 
 # 开发语言
+go = "latest"
 python = "3.13"
-java = "21"
+java = "temurin-21"
 node = "22"
 rust = "stable"
 
