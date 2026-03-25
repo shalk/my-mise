@@ -1,35 +1,10 @@
 # my-mise
 
-用 [mise](https://mise.jdx.dev/) 全局管理 AI CLI 工具版本。
+用 [mise](https://mise.jdx.dev/) 管理 AI CLI 工具和开发语言版本。
+Manage AI CLI tools and development runtimes with [mise](https://mise.jdx.dev/).
 
-## 管理的工具
+---
 
-| 工具 | 后端 | 说明 |
-|------|------|------|
-| claude | aqua (anthropics/claude-code) | Anthropic Claude Code CLI |
-| codex | aqua (openai/codex) | OpenAI Codex CLI |
-| gemini | npm (@google/gemini-cli) | Google Gemini CLI |
-| crush | aqua (charmbracelet/crush) | Charm AI Crush CLI |
-| copilot | npm (@github/copilot) | GitHub Copilot CLI |
+**中文文档** → [doc/zh/README.md](doc/zh/README.md)
 
-## 使用方式
-
-```bash
-# 软链到全局配置
-ln -sf ~/code/github.com/shalk/my-mise/mise.toml ~/.config/mise/config.toml
-
-# 安装所有工具
-mise install
-
-# 查看已安装版本
-mise ls
-
-# 检查是否有新版本
-mise outdated
-
-# 升级所有工具
-mise upgrade
-
-# 交互式升级
-mise up -i
-```
+**English Docs** → [doc/en/README.md](doc/en/README.md)

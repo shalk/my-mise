@@ -9,8 +9,9 @@ This is a **mise configuration repository** that centrally manages AI CLI tools 
 ## Key Files
 
 - `mise.toml` — Main configuration declaring all managed tools and their versions
-- `README.md` — Chinese-language quick reference (tool list, installation, usage)
-- `mise_tutor.md` — Comprehensive bilingual (English/Chinese) tutorial on mise
+- `README.md` — Bilingual landing page linking to both language doc sets
+- `doc/zh/` — Chinese documentation (README, tutorial, per-language guides)
+- `doc/en/` — English documentation (README, tutorial, per-language guides)
 
 ## Common Commands
 
@@ -49,4 +50,4 @@ Mise uses different backends to install tools:
 
 - When adding tools to `mise.toml`, use the correct backend prefix (e.g., `npm:` for npm packages)
 - Version specifiers: `latest`, `3.13` (prefix match), `stable` (for rust), or exact like `3.13.2`
-- Documentation is bilingual (Chinese primary, English in tutorial) — maintain both languages when editing `mise_tutor.md`
+- Documentation is bilingual — Chinese files live in `doc/zh/`, English in `doc/en/`; keep both in sync when editing
