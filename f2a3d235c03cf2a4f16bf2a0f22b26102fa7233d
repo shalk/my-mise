@@ -1,0 +1,23 @@
+rust.md
+  1e947a104f895d56 57,59,61-63,65-66,69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "f2a3d235c03cf2a4f16bf2a0f22b26102fa7233d",
+  "prompts": {
+    "1e947a104f895d56": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "75cfb2d7-a971-4e6e-a7d5-fe1bd9e8fa55",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "shalk(xiao kun) <xshalk@outlook.com>",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 4,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    }
+  }
+}
