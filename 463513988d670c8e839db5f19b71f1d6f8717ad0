@@ -1,0 +1,53 @@
+doc/en/README.md
+  5c76e1499a3fae48 1-44
+README.md
+  5c76e1499a3fae48 3-4,6,8,10
+doc/en/rust.md
+  5c76e1499a3fae48 1-69
+doc/en/go.md
+  5c76e1499a3fae48 1-61
+doc/en/java.md
+  5c76e1499a3fae48 1-97
+doc/en/python.md
+  5c76e1499a3fae48 1-78
+doc/zh/java.md
+  5c76e1499a3fae48 1-99
+CLAUDE.md
+  5c76e1499a3fae48 12-14,53
+doc/zh/tutorial.md
+  5c76e1499a3fae48 1-286
+doc/zh/node.md
+  5c76e1499a3fae48 1-71
+doc/zh/rust.md
+  5c76e1499a3fae48 1-69
+doc/en/tutorial.md
+  5c76e1499a3fae48 1-286
+doc/zh/README.md
+  5c76e1499a3fae48 1-44
+doc/zh/python.md
+  5c76e1499a3fae48 1-78
+doc/zh/go.md
+  5c76e1499a3fae48 1-61
+doc/en/node.md
+  5c76e1499a3fae48 1-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "463513988d670c8e839db5f19b71f1d6f8717ad0",
+  "prompts": {
+    "5c76e1499a3fae48": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f79c5c90-5592-472a-ade2-4aeab562d1d5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "shalk(xiao kun) <xshalk@outlook.com>",
+      "messages": [],
+      "total_additions": 1423,
+      "total_deletions": 33,
+      "accepted_lines": 1423,
+      "overriden_lines": 0
+    }
+  }
+}
