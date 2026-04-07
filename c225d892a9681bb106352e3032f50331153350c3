@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "c225d892a9681bb106352e3032f50331153350c3",
+  "prompts": {
+    "99843ed071c9a716": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01323944-2b3b-41aa-b7cf-ead268fd3263",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "shalk(xiao kun)",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
