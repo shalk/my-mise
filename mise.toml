@@ -7,6 +7,7 @@ crush = "latest"
 "npm:@github/copilot" = "latest"
 "npm:@angular/cli" = "latest"
 "npm:@larksuite/cli" = "latest"
+"npm:ctx7" = "latest"
 
 # 开发语言
 go = "latest"
@@ -18,3 +19,15 @@ rust = "stable"
 # 包管理工具
 uv = "latest"
 maven = "3"
+
+[tasks.omz-up]
+description = "Update oh my zsh and plugins"
+run = "zsh -c -i \"omz update\""
+
+[tasks.brew-up]
+description = "Update brew software"
+run = "brew update && brew upgrade"
+
+[tasks.mise-up]
+description = "Update mise management software like claude"
+run = "mise outdated && mise up"
