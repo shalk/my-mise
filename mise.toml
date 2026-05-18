@@ -1,11 +1,10 @@
 [tools]
-# AI CLI 工具
+# AI CLI 
 claude = "latest"
 codex = "latest"
 gemini = "latest"
 crush = "latest"
 "npm:@github/copilot" = "latest"
-"npm:@angular/cli" = "latest"
 "npm:@larksuite/cli" = "latest"
 "npm:ctx7" = "latest"
 
@@ -16,7 +15,10 @@ java = "temurin-21"
 node = "22"
 rust = "stable"
 
-# 包管理工具
+# full stack
+"npm:@angular/cli" = "latest"
+
+# package management
 uv = "latest"
 maven = "3"
 
@@ -31,3 +33,4 @@ run = "brew update && brew upgrade"
 [tasks.mise-up]
 description = "Update mise management software like claude"
 run = "mise outdated && mise up"
+
